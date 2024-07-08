@@ -5,4 +5,8 @@ public class Medalla {
     public Medalla(TipoMedalla tipoMedalla) {
         this.tipoMedalla = tipoMedalla;
     }
+
+    public TipoMedalla getTipoMedalla() {
+        return tipoMedalla;
+    }
 }
